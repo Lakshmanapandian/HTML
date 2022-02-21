@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input_form</title>
+</head>
+<body>
+    <div>
+    <form method="post">
+        <div>
+            <label > Message</label>
+            <input title="Enter a Message" id="msg">
+            <button type="submit" class="btn">Create</button>
+        </div>
+        <div>
+        Base64 enoded text:</div>
+        <label id="msg1" style="border:2px solid rgb(211, 22, 22);"></label>
+    </form>
+</div>
+<script>
+    document.querySelector('form').addEventListener('submit',event=>
+    {
+        event.preventDefault();
+        const input=document.querySelector('#msg');
+        const encrypted=btoa(input.value);
+        document.querySelector('#msg1').innerHTML=encrypted;
+        console.log(atob(document.querySelector('msg1').innerHTML));
+    });
+</script>
+</body>
+</html>

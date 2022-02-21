@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div  id="div01" class="green">Hello world!</div>
+    <h1>My Title </h1>
+    <p> para tag</p>
+    <ul>
+        <li class="green">list1</li>
+        <li>list2</li>
+        <li class="yellow">list 3</li>
+        <li>list4</li>
+    </ul>
+    <p>
+        <img src="../images/apj.jpg" style="width:100px;height:100px" alt="">
+    </p>
+    <p>
+        <input title="enter your name" type="test" id="txtName"/>
+    </p>
+    <p><input type="text" title="Enter your name" id="txtName">
+    <script>
+        document.getElementById("div01").innerHTML="Hello World Updated";
+        var a=document.getElementById("txtName");
+        console.log(a.value);
+        var listitems=document.getElementById('li');
+        for(var i=0;i<listitems.length;i++){
+            listitems[i].innerHTML="item"+(i+1);
+        }
+        listitems[2].innerHTML="upadated text";
+        var imglist=document.getElementsByTagName('img');
+        imglist[0].src="../../images/apj.jpg";
+    </script>
+</body>
+</html>
