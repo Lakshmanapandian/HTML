@@ -67,6 +67,7 @@ body{
     background-color: black;
     transform: translate(10,170);
 }
+ 
 #sec1 button{
      background-color:transparent;
       width:15rem;
@@ -121,14 +122,29 @@ body{
      transform: translate(-50%,350%);
 
  }
-
+ #sec2 img{
+     transition: 2s;
+ }
+#sec2 img:hover{
+    transform: scale(1.2);
+}
  #sec2 div{
      /* border:1px solid black; */
      width:20vw;
      height:65vh;
-     background: linear-gradient(to right, #ffff66 0%, #ff99cc 100%);
+     /* background: linear-gradient(to right, #ffff66 0%, #ff99cc 100%); */
+     box-shadow: 2px 3px 8px 4px;
 
  }
+ #sec2 h4{
+       
+       font-size: 20px;
+       background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
+       background-clip:text;
+       -webkit-background-clip: text; 
+       -webkit-text-fill-color: transparent;
+     
+   }
  #sec2 .cont
  {
      display:grid;
@@ -159,8 +175,9 @@ body{
     position: absolute;
     top: -65%;
     left:50%;
-    transform: translate(-50%,550%);
+    transform: translate(-50%,600%);
     font-size: 20px;
+    font-weight:normal;
  }
  #sec3 h3{
     background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
@@ -254,6 +271,16 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
     background: linear-gradient(to right, #ffff66 0%, #ff99cc 100%);
     display: grid;
     place-content: center;
+}
+#section5 h1{
+    font-size: 27px;
+    background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
+    background-clip:text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+     position:absolute;
+     left:40%;
+
 }
 
 .pricing-list {
@@ -359,8 +386,80 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
     align-items: center;
     justify-content: center;
 }
- 
+ #sec7 {
+     width:100vw;
+     height:100vh;
+     position: relative;
+    
+ }
+ #sec7 h1{
+    
+    font-size: 27px;
+    background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
+    background-clip:text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%,90%);
 
+ }
+ #sec7 h3{
+     color:black;
+     position: absolute;
+     top:-18%;
+     left:50%;
+     transform: translate(-50%,350%);
+     font-weight: normal;
+
+ }
+ #sec7 img{
+     transition: 2s;
+     width:20vw;
+     height:35vh;
+   
+ }
+#sec7 img:hover{
+    transform: scale(1.2);
+}
+ #sec7 div{
+     /* border:1px solid black; */
+     width:20vw;
+     height:60vh;
+      box-shadow: 0px -3px 8px 0px;;
+      font-weight: normal;
+    font-size: 19px;
+ }
+ #sec7 .cont
+ {
+     display:grid;
+     grid-template-columns: auto auto auto auto;
+     grid-gap: 15px;
+     position: absolute;
+     top:10%;
+     left:50%;
+     transform: translate(-200%,40%);
+    font-size: 20px;
+    text-align:center;
+    font-weight: 900;
+ }
+#sec7 h4{
+       
+    font-size: 20px;
+    background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
+    background-clip:text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  
+}
+#sec7 div  hr{
+   
+    background: -webkit-linear-gradient(#511a91 20%, #f0067b 100%);
+    background-clip:border-box;
+    -webkit-background-clip:border-box; 
+    -webkit-text-fill-color: transparent;
+}
 </style>
 </head>
 <body>
@@ -372,7 +471,7 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
         <li><a href="#sec2">PRODUCT</a> </li>
          <li><a href="#section4">TESTIMOINAL</a></li>
         <li><a href="#section5 ">PRICING </a></li>
-        <li><a href="#">BLOG </a></li>      
+        <li><a href="#sec7">BLOG </a></li>      
         <li><a href="#sec6">CONTACT</a></li>
         <li style="background-color:blue;color:white ;height:1.8rem;"><a href="# ">ORDER NOW</a></li>
     
@@ -423,15 +522,16 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
 <div class="cont">
 <div class="wa1">
     <img src="../images/watch-1.png" alt="">
- REFLEX VOX DIGITAL SILICONE BLACK STRAP WATCH  </div>
+    <h4>REFLEX VOX DIGITAL  </h4>₹4000  </div>
 <div class="wa2"><img src="../images/watch-2.png" alt="">
-  SMART VITAL LITE </div>
+  <h4>SMART VITAL LITE</h4>₹4500 </div>
 <div class="wa3"><img src="../images/watch-3.png" alt="">
-  BOAT STORM </div>
-<div class="wa4"><img src="../images/watch-4.png" alt=""> REFLEX VOX DIGITAL SILICONE PINK STRAP </div>
+    <h4> BOAT STORM </h4>₹5000</div>
+<div class="wa4"><img src="../images/watch-4.png" alt="">  <h4> VOX DIGITAL </h4> ₹6000</div>
 </div>
     </section>
     <section id="section5">
+        <h1>CHOOSE YOUR PLAN</h1>
         <div class="pricing-list">
             <div class="price">
                 <div class="pricing-head">
@@ -481,7 +581,23 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
         </div>
     </section>
 
-   
+    <section id="sec7">
+        <h1>UPDATED NEWS</h1>
+        <h3>Lorem ipsum dolor sit amet elit , consectetur adipiscing , sed eiusmod tempor sit amet elit dolor sit amet elit.</h3>
+            <div class="cont">
+                <div class="wa1">
+                    <img src="../images/slide1.png" alt=""><hr>
+                    <h4> Noise Launches</h4>New ColorFit Pulse Grand Smartwatch In India</h4>
+                    </div>
+                <div class="wa2"><img src="../images/slide1.png" alt=""><hr>
+                   <h4> Intex FitRist Vogue Smartwatch</h4>Launched In India: Price, Features and Colours
+                </div>
+                <div class="wa3"><img src="../images/slide1.png" alt=""><hr>
+                <h4> Garmin Fenix 7</h4>With Inbuilt Flashlight, Premium Garmin Epix Watches Launched in India: Price, Specifications</div>
+                <div class="wa4"><img src="../images/slide1.png" alt=""><hr><h4>Samsung </h4>India's Leading Smartwatch Brand in Q2 2021: IDC</div>
+                </div>
+             
+    </section>
   <section id="sec6">
       
 <form>
@@ -507,5 +623,6 @@ Your Email:</div>
  
  
   </section>
+  
 </body>
 </html>
