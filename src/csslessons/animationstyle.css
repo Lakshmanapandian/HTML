@@ -1,0 +1,54 @@
+ 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: mymove2;
+    animation-duration:5s  
+  }
+  
+  
+  @keyframes mymove {
+    10% { left:0;top: 0px;}
+    100%{ left:500px;top: 0px;}
+  }
+@keyframes mymove2{
+    0%{
+        left:0;
+        top:0;
+        background-color: aqua;
+    } 
+    25%{
+        left:500px;
+        top:0;
+        background-color: green;
+    }50%{
+        left:500px;
+        top:500px;
+        background-color: yellow;;
+    }
+    75%{
+        left:0px;
+        top:500px;
+    }
+    100%{
+        left:500px;
+        top:0;
+        background-color: green;
+    }
+}
+@keyframes anim2{
+    0%{
+        left:0;
+        top:0;
+        background-color: aqua;
+    }
+  
+   
+    100%{
+        left: 0px;
+        top:0;
+        background-color: green;
+    }
+}

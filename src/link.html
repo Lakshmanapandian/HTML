@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+<style>
+    /* a[href="https://madurai.nic.in"]{
+        color:green;
+    } */
+    a[href*="madurai.nic.in"]{
+        color:green;
+    }
+    a{
+        text-decoration: none;
+    }
+    a[href="https://chennai.nic.in"]{
+        color:red;
+
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+</style>
+
+</head>
+<body>
+    Visit
+    <P><a href="https://chennai.nic.in" id="chennai">Chennai</a></P>
+    or
+    <p><a href="https://madurai.nic.in" id="madurai">Madurai</a>.</p>
+    <p><a href="https://madurai.nic.in/" id="madurai">Madurai</a>.</p>
+
+</body>
+</html>

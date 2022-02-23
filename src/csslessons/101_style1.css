@@ -1,0 +1,36 @@
+h2{
+    border-width:5px;
+    border-style: solid;
+    border-color: blue;
+    border:5px red solid;
+    padding-left: 90px;
+    padding:30px 50px 70px 90px;
+}
+ 
+h3{
+     padding:100px;
+     width:150px;
+     height:100px;
+     box-sizing: content-box;
+     border:5px solid aqua;
+}
+ul li{
+    color:red;
+}
+ul>li{
+    color:blue;
+}
+li{
+    color:green;
+}
+.item{
+    color:pink;
+
+}
+#list-item{
+    color: aqua;
+}
+input[type="email"]{
+    background-color: yellowgreen;
+}
+ 
