@@ -4,7 +4,7 @@ preventDefault();
 function fip(event) {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
-  tipdis = billam * (5 / 10);
+  tipdis = billam * (5 / 1);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
