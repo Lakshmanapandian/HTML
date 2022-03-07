@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Spartan&display=swap" rel="stylesheet">
     <title>Index</title>
 </head>
 <style>
+    *{
+        font-family: 'Spartan', sans-serif;
+    }
   th{
       background-color: rgb(32,40,50);
+      height: 5vh;
   }
    tr:nth-child(2n) {
     background-color:rgb(36,46,56);
@@ -42,28 +47,50 @@ th,td,tr{
     }
     td{
         text-align: center;
-        width: 12vw;
+        width: 15vw;
 height:5vh;
+ 
     }
-    table{
+    #t1{
         border-collapse: collapse;
       position: absolute;
-      left:50%;
+      left:13%;
       top:50%;
-transform:translate(-50%,0%);
-
+    transform:translate(-50%,0%);
+    width:15vw;
+    }
+    #t2{
+        border-collapse: collapse;
+      position: absolute;
+      left:43%;
+      top:50%;
+    transform:translate(-50%,0%);
+    width:15vw;
+    height:100vh;
+    }
+    #t3{
+        border-collapse: collapse;
+      position: absolute;
+      left:73%;
+      top:50%;
+    transform:translate(-50%,0%);
+    width:15vw;
     }
     body{
         background:skyblue;
         position: relative;
     }
     div{
-        width:15vw;
+        width:10vw;
+    }
+    caption{
+        font-weight: bold;
+        padding: 10px;
     }
 </style>
 <body>
     <div>
-        <table >
+        <table id="t1">
             <caption> Menu-HTML 
             </caption>
             <thead>
@@ -72,43 +99,77 @@ transform:translate(-50%,0%);
                         S.NO
                     </th>
                 <th scope="col" width="15px">
-                    pages
+                    Pages
                 </th>
                 <th scope="col" width="15px">
                    Module
                 </th></tr>
             </thead>
             <tbody>
-               <tr><td>1</td><td><div><a href="./src/pagea.html">pagea</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>2</td><td><div><a href="./src/pageb.html">pageb</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>3</td><td><div><a href="./src/pagec.html">pagec</a></div></td><td>Html Fundamentals</td></tr>  
-               <tr><td>4</td><td><div><a href="./src/paged.html">paged</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>5</td><td><div><a href="./src/pagee.html">pagee</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>6</td><td><div><a href="./src/pagef.html">pagef</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>7</td><td><div><a href="./src/pageg.html">pageg</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>8</td><td><div><a href="./src/pageh.html">pageh</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>9</td><td><div><a href="./src/pageh.html">pagei</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>10</td><td><div><a href="./src/Tribute.html">tribute</a></div><td>Html Fundamentals</td></td></tr> 
-               <tr><td>11</td><td><div><a href="./src/survey.html">survey</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>12</td><td><div><a href="./src/new.html">new</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>13</td><td><div><a href="./src/child-frame.html">child-frame</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>14</td><td><div><a href="./src/grand-child-frame.html">grand-child-frame</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>15</td><td><div><a href="./src/link_a_target.html">link_a_target</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>16</td><td><div><a href="./src/input_readonly.html">input_readonly</a></div></td><td>Html Fundamentals</td></tr>
-               <tr><td>17</td><td><div><a href="./src/input_types.html">input_types</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>18</td><td><div><a href="./src/input_f_radio.html">input_f_radio</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>19</td><td><div><a href="./src/SmartWatches.html">Smartwatches</a></div></td><td>Html Fundamentals</td></tr> 
-               <tr><td>20</td><td><div><a href="./src/NFT_preview_card_component.html">NFT preview card component</a></div></td><td>Handson</td></tr> 
-               <tr><td>21</td><td><div><a href="./src/space_toursim/index.html">Space Tourism</a></div></td><td>Handson</td></tr> 
-               <tr><td>22</td><td><div><a href="./src/chat-app-css-illustration-master/index.html">Chat-app</a></div></td><td>Handson</td></tr> 
-               <tr><td>23</td><td><div><a href="./src/qr-code-component-main/index.html">Qr-code-component</a></div></td><td>Handson</td></tr> 
-               <tr><td>24</td><td><div><a href="./src/order-summary-component-main/"> Order-Summary-component</a></div></td><td>Handson</td></tr> 
-               <tr><td>25</td><td><div><a href="./src/testimonials-grid-section-main/index.html">testimonials-grid-section</a></div></td><td>Handson</td></tr> 
-               <tr><td>26</td><td><div><a href="./src/profile-card-component-main/">profile card </a></div></td><td>Handson</td></tr> 
-               <tr><td>27</td><td><div><a href="./src/social-proof-section-master/index.html">Social Proof section</a></div></td><td>Handson</td></tr> 
-               <tr><td>28</td><td><div><a href="./src/four-card-feature-section-master/index.html" >Four card feature</a></div></td><td>Handson</td></tr> 
-               <tr><td>29</td><td><div><a href="./src/stats-preview-card-component-main/index.html" >Status  preview card </a></div></td><td>Handson</td></tr> 
-            </tbody>
+               <tr><td>1</td><td><div><a href="./src/pagea.html">pagea</a></div></td><td ><div>Html Basics</div></td></tr> 
+               <tr><td>2</td><td><div><a href="./src/pageb.html">pageb</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>3</td><td><div><a href="./src/pagec.html">pagec</a></div></td><td>Html Basics</td></tr>  
+               <tr><td>4</td><td><div><a href="./src/paged.html">paged</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>5</td><td><div><a href="./src/pagee.html">pagee</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>6</td><td><div><a href="./src/pagef.html">pagef</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>7</td><td><div><a href="./src/pageg.html">pageg</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>8</td><td><div><a href="./src/pageh.html">pageh</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>9</td><td><div><a href="./src/pageh.html">pagei</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>10</td><td><div><a href="./src/Tribute.html">tribute</a></div><td>Html Basics</td></td></tr> 
+               <tr><td>11</td><td><div><a href="./src/survey.html">survey</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>12</td><td><div><a href="./src/new.html">new</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>13</td><td><div><a href="./src/child-frame.html">child-frame</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>14</td><td><div><a href="./src/grand-child-frame.html">grand-child-frame</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>15</td><td><div><a href="./src/link_a_target.html">link_a_target</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>16</td><td><div><a href="./src/input_readonly.html">input_readonly</a></div></td><td>HtmlBasics</td></tr>
+               <tr><td>17</td><td><div><a href="./src/input_types.html">input_types</a></div></td><td>Html Basics</td></tr> 
+               <tr><td>18</td><td><div><a href="./src/input_f_radio.html">input_f_radio</a></div></td><td>Html Basics</td></tr><tbody></tbody> </table>
+               <table id="t2">
+                <caption> CSS-Handson
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col" width="15px">
+                            S.NO
+                        </th>
+                    <th scope="col" width="15px">
+                        Pages
+                    </th>
+                    <th scope="col" width="15px">
+                       Module
+                    </th></tr>
+                </thead>
+                <tbody>
+               <tr><td>1</td><td><div><a href="./src/SmartWatches.html">Smartwatches</a></div></td><td> <div> Handson</td></div></tr> 
+               <tr><td>2</td><td><div><a href="./src/NFT_preview_card_component.html">NFT preview card component</a></div></td><td>Handson</td></tr> 
+               <tr><td>3</td><td><div><a href="./src/space_toursim/index.html">Space Tourism</a></div></td><td>Handson</td></tr> 
+               <tr><td>4</td><td><div><a href="./src/chat-app-css-illustration-master/index.html">Chat-app</a></div></td><td>Handson</td></tr> 
+               <tr><td>5</td><td><div><a href="./src/qr-code-component-main/index.html">Qr-code-component</a></div></td><td>Handson</td></tr> 
+               <tr><td>6</td><td><div><a href="./src/order-summary-component-main/"> Order-Summary-component</a></div></td><td>Handson</td></tr> 
+               <tr><td>7</td><td><div><a href="./src/testimonials-grid-section-main/index.html">Testimonials-grid-section</a></div></td><td>Handson</td></tr> 
+               <tr><td>8</td><td><div><a href="./src/profile-card-component-main/">Profile card </a></div></td><td>Handson</td></tr> 
+               <tr><td>9</td><td><div><a href="./src/social-proof-section-master/index.html">Social Proof section</a></div></td><td>Handson</td></tr> 
+               <tr><td>10</td><td><div><a href="./src/four-card-feature-section-master/index.html" >Four card feature</a></div></td><td>Handson</td></tr> 
+               <tr><td>11</td><td><div><a href="./src/stats-preview-card-component-main/index.html" >Status  preview card </a></div></td><td>Handson</td></tr> 
+             </tbody>
+            </table> 
+            <table id="t3"> 
+                <caption> JS-Handson
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col" width="15px">
+                            S.NO
+                        </th>
+                    <th scope="col" width="15px">
+                        Pages
+                    </th>
+                    <th scope="col" width="15px">
+                       Module
+                    </th></tr>
+                </thead>
+                <tbody>
+               <tr><td>1</td><td><div><a href="#">Calcultor App</a></div></td><td> <div> JS Handson</td></div></tr> 
         </table>
     </div>
 </body>
