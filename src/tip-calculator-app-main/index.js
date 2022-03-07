@@ -4,7 +4,7 @@ preventDefault();
 function fip(event) {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
-  tipdis = billam * (5 / 10);
+  tipdis = billam * (5 / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
@@ -16,7 +16,7 @@ function tep() {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
 
-  tipdis = billam * (10 / 10);
+  tipdis = billam * (10 / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
@@ -24,7 +24,7 @@ function tep() {
 function fitp() {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
-  tipdis = billam * (15 / 10);
+  tipdis = billam * (15 / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
@@ -32,7 +32,7 @@ function fitp() {
 function tfp() {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
-  tipdis = billam * (25 / 10);
+  tipdis = billam * (25 / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
@@ -40,7 +40,7 @@ function tfp() {
 function fit() {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
-  tipdis = billam * (50 / 10);
+  tipdis = billam * (50 / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
@@ -49,7 +49,7 @@ function ft() {
   billam = document.getElementById("bill").value;
   customer = document.getElementById("customer").value;
   custom = document.getElementById("custom").value;
-  tipdis = billam * (custom / 1);
+  tipdis = billam * (custom / 100);
   document.getElementById("tip").innerHTML = "$" + tipdis;
   document.getElementById("tiptotal").innerHTML =
     "$" + (tipdis / customer).toFixed(2);
