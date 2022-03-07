@@ -12,8 +12,8 @@
   --mainbgcolor: hsl(222, 26%, 31%);
   --mainbg1color: hsl(0, 0%, 90%);
   --mainbg2color: hsl(268, 75%, 9%);
-  --twotkbg: hsl(0, 5%, 81%);
-  --tbgkbgsbg: hsl(268, 71%, 12%);
+  --txtbx1: hsl(0, 5%, 81%);
+  --txtbx2: hsl(268, 71%, 12%);
 }
 body {
   width: 100%;
@@ -29,7 +29,7 @@ body.active1 {
   background-color: var(--mainbg1color);
 }
 body.active1 .btn {
-  background-color: var(--twotkbg);
+  background-color: var(--txtbx1);
 }
 body.active2 {
   background-color: var(--mainbg2color);
@@ -69,7 +69,7 @@ h3 {
   position: relative;
 }
 body.active1 .control .box {
-  background-color: var(--twotkbg);
+  background-color: var(--txtbx1);
 }
 body.active2 .control #circle {
   background-color: hsl(176, 100%, 44%);
@@ -124,7 +124,7 @@ body.active1 #screen {
   color: #111;
 }
 body.active2 #screen {
-  background-color: var(--tbgkbgsbg);
+  background-color: var(--txtbx2);
   color: hsl(52, 100%, 62%);
 }
 button {
@@ -157,7 +157,7 @@ body.active2 button {
   border-radius: 7px;
 }
 body.active2 .btn {
-  background-color: var(--tbgkbgsbg);
+  background-color: var(--txtbx2);
 }
 .reset,
 .del {

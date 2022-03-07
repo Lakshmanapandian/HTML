@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Spartan", sans-serif;
+}
+body {
+  position: relative;
+  background-color: hsl(185, 41%, 84%);
+}
+.container {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  width: 65vw;
+  height: 65vh;
+  transform: translate(20%, 30%);
+  background-color: white;
+  border-radius: 20px;
+}
+h3 {
+  position: absolute;
+  left: 5%;
+  top: 8%;
+}
+svg {
+  position: absolute;
+  top: 14%;
+  left: 5%;
+}
+#bill {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  width: 20vw;
+  height: 5vh;
+  background-color: hsl(189, 41%, 97%);
+  border: 1px solid hsl(183, 100%, 15%);
+  text-align: right;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 5px;
+}
+h4 {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+.btn {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  width: 25vw;
+  height: 5vh;
+}
+button {
+  width: 7vw;
+  height: 5vh;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: hsl(183, 100%, 15%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+}
+button:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: black;
+  cursor: pointer;
+  font-weight: 900;
+}
+h5 {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+}
+#customer {
+  position: absolute;
+  left: 5%;
+  top: 74%;
+  width: 20vw;
+  height: 5vh;
+  background-color: hsl(189, 41%, 97%);
+  border: 1px solid hsl(183, 100%, 15%);
+  text-align: right;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.container1 {
+  width: 30vw;
+  height: 55vh;
+  background-color: hsl(183, 100%, 15%);
+  position: absolute;
+  right: 4%;
+  top: 8%;
+  border-radius: 10px;
+}
+#h61 {
+  color: white;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+#p1 {
+  position: absolute;
+  top: 18%;
+  left: 12%;
+  color: hsl(185, 41%, 84%);
+}
+#h62 {
+  color: white;
+  font-size: larger;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+#p2 {
+  position: absolute;
+  top: 38%;
+  left: 12%;
+  color: hsl(185, 41%, 84%);
+}
+#tip {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: hsl(185, 41%, 84%);
+}
+#tiptotal {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  color: hsl(185, 41%, 84%);
+}
+#reset {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  width: 25vw;
+  height: 7vh;
+  border: none;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+}
+#custom {
+  width: 7vw;
+  height: 5vh;
+  background-color: hsl(189, 41%, 97%);
+  border: 1px solid hsl(183, 100%, 15%);
+  border-radius: 5px;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+}
+img {
+  position: absolute;
+  left: 49%;
+  transform: translate(0, 45%);
+  width: 9vw;
+}
