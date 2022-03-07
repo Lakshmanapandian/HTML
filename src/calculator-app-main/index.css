@@ -198,9 +198,30 @@ body.active2 .equal {
 }
 @media only screen and (max-width: 460px) {
   #screen {
-    width: 95%;
+    width: 85%;
     height: 100px;
     margin: 10px 10px;
     text-align: right;
+  }
+  .btn {
+    width: 441px;
+  }
+  button {
+    width: 85px;
+  }
+  .reset,
+  .equal {
+    width: 187px;
+  }
+  .control p {
+    color: #111;
+    position: absolute;
+    left: 50%;
+  }
+  .control .box {
+    margin-right: 100px;
+  }
+  .right {
+    margin-right: 100px;
   }
 }
