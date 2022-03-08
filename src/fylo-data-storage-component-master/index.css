@@ -183,21 +183,33 @@ body {
 @media only screen and (max-width: 361px) {
   body {
     background-size: cover;
-    height: 200vh;
+    height: 100vh;
   }
   .card-logo {
-    margin-left: 6rem;
     position: absolute;
     top: 12%;
-    width: 99%;
-  }
-  .card-storage {
-    bottom: 197px;
-    width: 168%;
+    width: 83%;
+    margin-right: -20px;
+    margin-right: -20px;
     margin-left: 20px;
   }
+  .card-storage {
+    bottom: -150px;
+    width: 168%;
+    margin-left: 20px;
+    height: 30vh;
+  }
   .msg {
-    left: -99px;
+    left: -69px;
     top: 1rem;
+    width: 35vw;
+    height: 8vh;
+    border-radius: 10px 10px 10px;
+  }
+  .msg strong {
+    font-size: 20px;
+  }
+  .msg::before {
+    display: none;
   }
 }
