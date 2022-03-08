@@ -1,217 +1,248 @@
-*{
-padding:0;
-margin:0;
-font-family: 'Rubik', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
 }
-body{
-    position:relative;
-    background-color: hsl(270, 20%, 96%);
+body {
+  position: relative;
+  background-color: hsl(270, 20%, 96%);
 }
-.chat-screen-primary{
-    width:20vw;
-    height:83vh;
-    border:1px solid rgb(10, 10, 10);
+.chat-screen-primary {
+  width: 20vw;
+  height: 83vh;
+  border: 1px solid rgb(10, 10, 10);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  box-shadow: 10 10 10;
+  border-radius: 60px 60px 50px 50px;
+  background-color: hsl(0, 0%, 100%);
+}
+.chat-screen-secondry {
+  width: 18vw;
+  height: 78vh;
+  border: 1px solid white;
+  border-radius: 60px 60px 50px 50px;
+  background-color: hsl(270, 7%, 84%);
+  position: absolute;
+  left: 5%;
+  top: 4%;
+}
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 16px;
+  position: absolute;
+  left: 30%;
+  top: 5%;
+  color: white;
+}
+h3 {
+  font-size: 11px;
+  position: absolute;
+  left: 30%;
+  color: hsl(270, 20%, 96%);
+  top: 10%;
+}
+span {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 30vw;
+}
+.colorr {
+  width: 15rem;
+  height: 90vh;
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 0 0 50rem 0px;
+}
+.header {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 30px 30px 0 0;
+  height: 80px;
+}
+.header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+.cooo {
+  width: 10rem;
+  border-radius: 50px 50px 50px 50px;
+  background-color: white;
+  height: 30px;
+  position: absolute;
+  top: -3%;
+  left: 20%;
+}
+p {
+  font-size: 14px;
+  width: 100px;
+  border: 1px solid white;
+}
+#right1 {
+  width: 150px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  position: absolute;
+  top: 41%;
+  right: 0%;
+  border-radius: 10px 10px 0px 10px;
+  align-content: center;
+  padding-left: 10px;
+  color: hsl(271, 15%, 43%);
+}
+#right2 {
+  width: 150px;
+  height: 50px;
+
+  position: absolute;
+  top: 49%;
+  right: 4%;
+  border-radius: 10px 10px 0px 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: white;
+  color: hsl(271, 15%, 43%);
+}
+#right1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+#left1 {
+  width: 160px;
+  height: 50px;
+  color: hsl(276, 55%, 52%);
+  position: absolute;
+  top: 17%;
+  left: 4%;
+  border-radius: 10px 10px 10px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+}
+#left2 {
+  width: 160px;
+  height: 57px;
+  color: hsl(276, 55%, 52%);
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  border-radius: 10px 10px 10px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+}
+
+#left3 {
+  width: 160px;
+  height: 95px;
+  color: hsl(276, 55%, 52%);
+  position: absolute;
+  top: 62%;
+  left: 4%;
+  border-radius: 10px 10px 10px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+}
+
+#left4 {
+  width: 160px;
+  height: 30px;
+  color: hsl(285, 33%, 98%);
+  position: absolute;
+  top: 82%;
+  left: 4%;
+  border-radius: 10px 10px 10px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  text-align: center;
+}
+input {
+  position: absolute;
+  top: 92%;
+  left: 9%;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  width: 15vw;
+}
+button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  position: absolute;
+  top: 93%;
+  left: 81%;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  color: white;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    height: 120vh;
+  }
+  .chat-screen-secondry {
+    width: 60vw;
+  }
+  .chat-screen-primary {
+    width: 69vw;
+    top: 3%;
+    left: 23%;
+  }
+  input {
+    width: 52vw;
+  }
+  span {
+    top: 96%;
+    left: 21%;
+    width: 66vw;
+  }
+  h1 {
+    top: 87%;
+    left: 18%;
+  }
+  .colorr {
+    width: 7rem;
+  }
+  .attribution {
     position: absolute;
-    top:10%;
-    left:10%;
-    box-shadow:10 10 10;
-    border-radius:60px 60px 50px 50px;
-    background-color: hsl(0, 0%, 100%);
-}
-.chat-screen-secondry{
-    width:18vw;
-    height:78vh;
-    border:1px solid white;
-    border-radius:60px 60px 50px 50px;
-    background-color:  hsl(270, 7%, 84%);
-    position:absolute;
-    left:5%;
-    top:4%;
-}
-h1{
-    position:absolute;
-    top:40%;
-    left:40%;
-    background:linear-gradient(to right,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-    background-clip:text;
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-  
-}
-h2{
-    font-size:16px;
-    position:absolute;
-    left:30%;
-    top:5%;
-    color:white;
-
-}
-h3{
-    font-size:11px;
-    position:absolute;
-    left:30%; 
- color:hsl(270, 20%, 96%);
-    top:10%;
-}
-span{
-    position:absolute;
-    top:50%;
-    left:40%;
-    width:30vw;
-
-}
-.colorr{
-width:15rem;
-height:90vh;
-background-image: linear-gradient(to bottom right,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-border-radius:0 0   50rem 0px;
-}
-.header{
-background-image: linear-gradient(to bottom right,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-border-radius:30px 30px 0 0;
-height:80px;
-}
-.header img{
-    width:40px;
-    height: 40px;
-    border-radius: 50%;
-    border:1px solid white;
-    position:absolute;
-    left:10%;
-    top:5%;
-}
-.cooo{
-    width:10rem;
-    border-radius:50px 50px 50px 50px;
-    background-color:white;
-    height:30px;
-    position: absolute;
-    top:-3%;
-    left:20%
-}
-p{
-    font-size: 14px;
-    width:100px;
-    border:1px solid white;
-}
- #right1{
-     width:150px;
-     height:40px;
-       display: grid;
-       grid-template-columns: auto auto auto auto;
-       grid-gap:20px;
-       position: absolute;
-       top:41%;
-       right:0%;  
-    border-radius:10px 10px 0px 10px ;
-    align-content:center;
-    padding-left: 10px;
-    color:hsl(271, 15%, 43%);
-     
-}
-#right2{
-    width:150px;
-    height:50px;
-       
-      position: absolute;
-      top:49%;
-      right:4%;  
-   border-radius:10px 10px 0px 10px ;
-   padding-left: 10px;
-   font-size:16px;
-   background-color: white;
-   color:hsl(271, 15%, 43%);
- 
-   
-    
-}
-#right1 img{
-    width:30px;
-    height:30px;   
-    border-radius: 10px; 
-   
-    
-}
-#left1{
-    
-    width:160px;
-    height:50px;
-    color: hsl(276, 55%, 52%);
-      position: absolute;
-      top:17%;
-     left:4%;  
-   border-radius:10px 10px 10px 0px ;
-   padding-left: 10px;
-   font-size:16px;
-   background-color: white;
-   text-align:center;
-
-}
-#left2{
-    
-    width:160px;
-    height:57px;
-    color: hsl(276, 55%, 52%);
-      position: absolute;
-      top:30%;
-     left:4%;  
-   border-radius:10px 10px 10px 0px ;
-   padding-left: 10px;
-   font-size:16px;
-   background-color: white;
-   text-align:center;
-
-}
-
-#left3{
-    
-    width:160px;
-    height:95px;
-    color: hsl(276, 55%, 52%);
-      position: absolute;
-      top:62%;
-     left:4%;  
-   border-radius:10px 10px 10px 0px ;
-   padding-left: 10px;
-   font-size:16px;
-   background-color: white;
-   text-align:center;
-
-}
-
-#left4{
-    
-    width:160px;
-    height:30px;
-    color: hsl(285, 33%, 98%);
-      position: absolute;
-      top:82%;
-     left:4%;  
-   border-radius:10px 10px 10px 0px ;
-   padding-left: 10px;
-   font-size:16px;
-   background-image: linear-gradient(to bottom right,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-   text-align:center;
-
-}
-input{
-    position: absolute;
-    top:92%;
-   left:9%; 
-   border-radius: 20px;
-   border: none;
-   height: 30px;
-   width:15vw;
-    
-}
-button{
-    width:20px;
-    height: 20px;
-    border: none;
-    position: absolute;
-    top:93%;
-   left: 81%;
-   border-radius:50%;
-   background-color:  hsl(271, 36%, 24%);  
-   color:white;
+    top: 120%;
+  }
 }
