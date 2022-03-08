@@ -1,5 +1,6 @@
 // var billam = document.getElementById("bill").value;
 // var customer = document.getElementById("customer").value;
+
 preventDefault();
 function fip(event) {
   billam = document.getElementById("bill").value;

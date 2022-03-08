@@ -36,21 +36,28 @@
     <img src="./images/logo.svg" alt="" />
     <div class="container">
       <h3>Bill</h3>
+      <form action="">
+        <input type="number" id="bill" required />
 
-      <input type="number" id="bill" />
-      <h4>Select Tip %</h4>
-      <div class="btn">
-        <button onclick="fip()" preventDefalut()>5%</button>
-        <button onclick="tep()">10%</button>
-        <button onclick="fitp()">15%</button>
-        <button onclick="tfp()">25%</button>
-        <button onclick="fit()">50%</button>
-        <input type="number" oninput="ft()" id="custom" placeholder="Custom" />
+        <h4>Select Tip %</h4>
+        <div class="btn">
+          <button onclick="fip()" preventDefalut()>5%</button>
+          <button onclick="tep()">10%</button>
+          <button onclick="fitp()">15%</button>
+          <button onclick="tfp()">25%</button>
+          <button onclick="fit()">50%</button>
+          <input
+            type="number"
+            oninput="ft()"
+            id="custom"
+            placeholder="Custom"
+          />
 
-        <!-- <button ond="ft()">40%</button> -->
-      </div>
-      <h5>Custom Number of People</h5>
-      <input type="number" id="customer" />
+          <!-- <button ond="ft()">40%</button> -->
+        </div>
+        <h5>Custom Number of People</h5>
+        <input type="number" id="customer" required />
+      </form>
       <div class="container1">
         <h6 id="h61">Total Tip Amount</h6>
         <h1 id="tip">$</h1>
