@@ -1,147 +1,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
-  padding: 0;
-  margin: 0;
   font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
 body {
   background-color: hsl(217, 54%, 11%);
   position: relative;
 }
-
 .con1 {
-  height: 31rem;
-  width: 18rem;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-60%, 20%);
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
   box-shadow: -1px -2px 20px 12px #141414;
+  height: 31rem;
+  left: 50%;
+  position: absolute;
+  top: 5%;
+  transform: translate(-60%, 20%);
+  width: 18rem;
 }
-
 .imgs {
   position: relative;
 }
-
 img {
-  width: 15rem;
-  height: 15rem;
   border-radius: 10px;
+  height: 15rem;
+  left: 50%;
   position: absolute;
   top: 27%;
-  left: 50%;
   transform: translate(-50%, -50%);
+  width: 15rem;
 }
-
 .textt {
+  color: white;
+  font-size: 20px;
+  left: 41%;
   position: absolute;
   top: 68%;
-  left: 41%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: white;
 }
-
 .txt2 {
-  font-size: 15px;
   color: #666db0;
+  font-size: 15px;
 }
-
 .svg1 img {
-  width: 12px;
   height: 15px;
-  position: absolute;
-  top: 80%;
   left: 13%;
+  position: absolute;
+  top: 80%;
   transform: translate(-50%, -50%);
+  width: 12px;
 }
-
 .svgt1 {
-  width: 12px;
+  color: skyblue;
+  font-size: 15px;
   height: 15px;
-  position: absolute;
-  top: 80%;
   left: 18%;
+  position: absolute;
+  top: 80%;
   transform: translate(-50%, -50%);
-  color: skyblue;
-  font-size: 15px;
+  width: 12px;
 }
-
 .svgt2 {
-  width: 12px;
-  position: absolute;
-  top: 80%;
-  right: 25%;
-  transform: translate(-50%, -50%);
   color: skyblue;
   font-size: 15px;
-}
-
-.svg2 img {
+  position: absolute;
+  right: 25%;
+  top: 80%;
+  transform: translate(-50%, -50%);
   width: 12px;
+}
+.svg2 img {
   height: 15px;
+  left: 65%;
   position: absolute;
   top: 80%;
-  left: 65%;
   transform: translate(-50%, -50%);
+  width: 12px;
 }
-
 .line hr {
   border: 1px solid hsl(215, 32%, 27%);
-  width: 14rem;
+  left: 50%;
   position: absolute;
   top: 85%;
-  left: 50%;
   transform: translate(-50%, -50%);
+  width: 14rem;
 }
-
 .avatar img {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 92%;
-  left: 13%;
-  transform: translate(-50%, -50%);
-  border: 1px solid white;
   border-radius: 50px;
-}
-
-.avat1 {
+  border: 1px solid white;
+  height: 30px;
+  left: 13%;
   position: absolute;
   top: 92%;
-  left: 32%;
   transform: translate(-50%, -50%);
+  width: 30px;
+}
+.avat1 {
   color: skyblue;
   font-size: 15px;
-}
-
-.avat2 {
-  width: 12px;
+  left: 32%;
   position: absolute;
   top: 92%;
-  left: 50%;
   transform: translate(-50%, -50%);
+}
+.avat2 {
   color: white;
   font-size: 15px;
+  left: 50%;
+  position: absolute;
+  top: 92%;
+  transform: translate(-50%, -50%);
+  width: 12px;
 }
-
 .svg3 img {
-  width: 25px;
-  height: 25px;
-  padding: 110px 110px 110px 110px;
+  background-color: skyblue;
   border-radius: 10px;
+  height: 25px;
+  left: 50%;
+  opacity: 0;
+  padding: 110px 110px 110px 110px;
   position: absolute;
   top: 27%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  background-color: skyblue;
-  opacity: 0;
   transition: 0.8s ease;
+  width: 25px;
 }
-
 .svg3 img:hover {
   opacity: 0.5;
 }

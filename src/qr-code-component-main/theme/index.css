@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  font-family: "outfil", sans-serif;
+  font-size: 15px;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 360px;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 17px;
+  margin: 0 1em;
+  padding: 30px;
+  text-align: center;
+}
+img {
+  border-radius: 12px;
+  width: 100%;
+}
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  text-align: center;
+}
+p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}

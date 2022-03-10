@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  align-items: center;
+  background-color: #1aa0ac;
+  background-image: url(./images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.attribution {
+  font-size: 11px;
+  font-size: 15px;
+  font-weight: 800;
+  position: absolute;
+  text-align: center;
+  width: 40vw;
+
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  background-color: #faf9f9;
+  border-radius: 10px;
+  color: rgb(7, 0, 0);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin: 0;
+  text-align: center;
+  width: 320px;
+}
+#background {
+  background-color: aqua;
+  background-image: url("images/bg-pattern-card.svg");
+  border-radius: 10px 10px 0px 0px;
+  height: 140px;
+  width: 320px;
+}
+#tekst-persoon {
+  height: 100px;
+  position: relative;
+  top: 64%;
+}
+#tekst-volgers {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 60%;
+}
+.numberTekst {
+  font-weight: 600;
+}
+.onderTekst {
+  font-size: 8.5px;
+  font-weight: 200;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: relative;
+  top: -5px;
+}
+.victor {
+  font-weight: 600;
+}
+.city {
+  font-size: 13px;
+  top: 3px;
+}
+.image {
+  border-radius: 50%;
+  border: solid 3px white;
+  position: relative;
+  top: 64%;
+}
+span {
+  font-weight: 400;
+}
