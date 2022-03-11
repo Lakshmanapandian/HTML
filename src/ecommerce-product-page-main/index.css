@@ -336,11 +336,17 @@ h3 {
 #menu {
   display: none;
 }
+ul #nav {
+  display: none;
+}
 @media only screen and (max-width: 1093px) {
   li {
     margin-left: 82px;
   }
   #menu {
+    display: none;
+  }
+  ul #nav {
     display: none;
   }
 }
@@ -360,6 +366,9 @@ h3 {
   }
   .imf {
     top: 29rem;
+  }
+  ul #nav {
+    display: none;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -391,6 +400,9 @@ h3 {
   }
   p {
     top: 49%;
+  }
+  #nav {
+    display: none;
   }
 }
 @media only screen and (max-width: 360px) {
