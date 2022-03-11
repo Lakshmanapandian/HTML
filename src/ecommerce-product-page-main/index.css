@@ -403,6 +403,7 @@ h3 {
   #avatar {
     left: 80%;
     width: 10vw;
+    top: 30px;
   }
   #imgp1 {
     display: none;
