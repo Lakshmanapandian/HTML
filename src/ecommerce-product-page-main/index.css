@@ -62,12 +62,14 @@ ul {
 .imf > img:hover {
   border: 1px solid orange;
   filter: grayscale(80%);
+  cursor: pointer;
   transition: 0.5s;
 }
 .imf1 {
   left: 9%;
   position: absolute;
   top: 27rem;
+  cursor: pointer;
   width: 40vw;
 }
 .imf1 img {
@@ -155,6 +157,7 @@ h3 {
   border: none;
   font-weight: 900;
   border-radius: 10px;
+  cursor: pointer;
 }
 #b2:hover {
   filter: grayscale(50%);
@@ -197,6 +200,7 @@ h3 {
   /* left: 1%; */
   margin-left: 10px;
   text-align: center;
+  cursor: pointer;
 }
 #imgsec button:hover {
   color: orange;
@@ -204,11 +208,19 @@ h3 {
 #pre {
   /* margin-left: 100px; */
   margin-top: 40px;
+  cursor: pointer;
+}
+.minus {
+  cursor: pointer;
+}
+.plus {
+  cursor: pointer;
 }
 #aft {
   position: absolute;
   left: 92%;
   margin-top: 40px;
+  cursor: pointer;
 }
 #imgsec #close {
   position: absolute;
@@ -226,6 +238,7 @@ h3 {
   position: absolute;
   top: 6%;
   left: 81%;
+  cursor: pointer;
 }
 #avatar {
   position: absolute;
@@ -233,6 +246,7 @@ h3 {
   left: 87%;
   width: 3vw;
   height: 5vh;
+  cursor: pointer;
   border-radius: 50%;
 }
 #avatar:hover {
@@ -461,6 +475,7 @@ ul #nav {
     top: 15%;
     /* left: 1%; */
     margin-left: -98px;
+    cursor: pointer;
   }
   #aft {
     position: absolute;
