@@ -84,3 +84,9 @@ function displayimg3() {
 function displayimg4() {
   imsslider.setAttribute("src", "images/" + images[3]);
 }
+function nav() {
+  document.getElementById("nav").style.display = "block";
+}
+function navclose() {
+  document.getElementById("nav").style.display = "none";
+}

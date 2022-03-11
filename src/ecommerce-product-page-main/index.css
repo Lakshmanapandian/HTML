@@ -333,9 +333,15 @@ h3 {
 #checkout:hover {
   filter: grayscale(50%);
 }
+#menu {
+  display: none;
+}
 @media only screen and (max-width: 1093px) {
   li {
     margin-left: 82px;
+  }
+  #menu {
+    display: none;
   }
 }
 @media only screen and (max-width: 1039px) {
@@ -345,6 +351,9 @@ h3 {
   #b1 {
     top: 67%;
     left: 57%;
+  }
+  #menu {
+    display: none;
   }
   #del {
     top: 72%;
@@ -373,6 +382,9 @@ h3 {
   h3 {
     top: 73%;
   }
+  #menu {
+    display: none;
+  }
   #b1 {
     top: 73%;
     left: 60%;
@@ -386,16 +398,22 @@ h3 {
     height: 150vh;
   }
   #logo {
-    top: 4%;
+    top: 2%;
+    left: 16%;
+  }
+  #menu {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 20px;
+    display: block;
   }
   #cart {
-    top: 4%;
+    top: 2.3%;
   }
-  #avatar {
-    top: 4%;
-  }
+
   ul {
-    display: none;
+    position: absolute;
   }
   #cart {
     left: 67%;
@@ -403,7 +421,7 @@ h3 {
   #avatar {
     left: 80%;
     width: 10vw;
-    top: 30px;
+    top: 15px;
   }
   #imgp1 {
     display: none;
@@ -418,7 +436,7 @@ h3 {
     display: none;
   }
   #imggm {
-    width: 99vw;
+    width: 94vw;
     height: 54vh;
     border-radius: 10px;
     /* display: none; */
@@ -451,10 +469,11 @@ h3 {
     font-size: larger;
   }
   p {
-    top: 64%;
-    width: 94vw;
+    top: 63%;
+    width: 89vw;
     left: 6%;
   }
+
   h3 {
     top: 75%;
     left: 7%;
@@ -514,5 +533,37 @@ h3 {
     height: 16px;
     top: 3%;
     left: 69.8%;
+  }
+  #mobile {
+    display: none;
+  }
+  #nav {
+    height: 150vh;
+    width: 60vw;
+    background-color: white;
+    height: 100vh;
+    width: 84vw;
+    background-color: white;
+    position: absolute;
+    left: -1%;
+    top: 1%;
+    display: none;
+  }
+  li {
+    margin-left: 37px;
+    margin-top: 45px;
+    display: block;
+    font-weight: 900;
+    color: black;
+  }
+  /* li:active {
+    text-decoration: underline;
+  } */
+  #nav-close {
+    position: absolute;
+    /* left: 13%; */
+    left: 13%;
+    top: 1%;
+    transition: 2s;
   }
 }

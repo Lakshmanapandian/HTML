@@ -27,8 +27,9 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <img src="./images/icon-menu.svg" alt="" id="menu" onclick="nav()" />
     <img src="./images/logo.svg " alt="" id="logo" />
-    <ul>
+    <ul #id="mobile">
       <li>Collections</li>
       <li>Men</li>
       <li>Women</li>
@@ -163,6 +164,19 @@
         <button id="checkout">Check out</button>
       </div>
     </div>
+    <ul id="nav">
+      <img
+        src="./images/icon-close.svg"
+        alt=""
+        id="nav-close"
+        onclick="navclose()"
+      />
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
   </body>
   <script src="index.js"></script>
 </html>
