@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  font-family: "barlow semi condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(213, 6%, 70%);
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.card1 .quotes {
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  height: 30vh;
+  left: 70%;
+  position: absolute;
+  top: 1%;
+  width: 30vw;
+}
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card1 {
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  color: white;
+  height: 45vh;
+  position: relative;
+  width: 40vw;
+
+  /*  */
+}
+.card1 img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 45px;
+  left: 2%;
+  position: absolute;
+  top: 7%;
+  width: 45px;
+}
+.card1 h1 {
+  font-size: 13px;
+  left: 13%;
+  position: absolute;
+  top: 8%;
+}
+.card1 h2 {
+  font-size: 13px;
+  left: 13%;
+  position: absolute;
+  top: 15%;
+}
+.card1 h3 {
+  padding-left: 40px;
+  position: absolute;
+  top: 25%;
+}
+.card1 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 55%;
+  word-spacing: 10px;
+}
+.card2 {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  color: white;
+  height: 45vh;
+  position: relative;
+
+  /*  */
+}
+.card2 img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 45px;
+  left: 2%;
+  position: absolute;
+  top: 7%;
+  width: 45px;
+}
+.card2 h1 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 8%;
+}
+.card2 h2 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 15%;
+}
+.card2 h3 {
+  padding-left: 40px;
+  position: absolute;
+  top: 25%;
+}
+.card2 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 50%;
+  word-spacing: 10px;
+}
+.card3 {
+  background-color: white;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  color: rgb(0, 0, 0);
+  grid-row-end: span 2;
+  height: 93vh;
+  position: relative;
+  width: 25vw;
+
+  /*  */
+}
+.card3 img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 45px;
+  left: 2%;
+  position: absolute;
+  top: 7%;
+  width: 45px;
+}
+.card3 h1 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 8%;
+}
+.card3 h2 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 12%;
+}
+.card3 h3 {
+  padding-left: 40px;
+  position: absolute;
+  top: 25%;
+}
+.card3 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 36%;
+  word-spacing: 10px;
+}
+.card4 {
+  background-color: white;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  color: rgb(0, 0, 0);
+  height: 45vh;
+  position: relative;
+
+  /*  */
+}
+.card4 img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 45px;
+  left: 2%;
+  position: absolute;
+  top: 7%;
+  width: 45px;
+}
+.card4 h1 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 8%;
+}
+.card4 h2 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 14%;
+}
+.card4 h3 {
+  padding-left: 40px;
+  position: absolute;
+  top: 25%;
+}
+.card4 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 50%;
+  word-spacing: 10px;
+}
+.card5 {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  color: rgb(255, 255, 255);
+  height: 45vh;
+  position: relative;
+  width: 30vw;
+
+  /*  */
+}
+.card5 img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 45px;
+  left: 2%;
+  position: absolute;
+  top: 7%;
+  width: 45px;
+}
+.card5 h1 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 8%;
+}
+.card5 h2 {
+  font-size: 13px;
+  left: 17%;
+  position: absolute;
+  top: 14%;
+}
+.card5 h3 {
+  padding-left: 40px;
+  position: absolute;
+  top: 25%;
+}
+.card5 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 50%;
+  word-spacing: 10px;
+}
+@media only screen and (max-width: 361px) {
+  body {
+    height: 200vh;
+  }
+  .grid {
+    display: block;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    margin-bottom: 20px;
+    width: 85vw;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 h3 {
+    font-size: smaller;
+    font-size: smaller;
+    top: 28%;
+    word-spacing: 1px;
+  }
+  .card2,
+  .card3,
+  .card5 p {
+    font-size: smaller;
+    top: 54%;
+    word-spacing: 1px;
+  }
+  .card4 p {
+    font-size: x-small;
+    top: 57%;
+  }
+  .card1 p {
+    font-size: x-small;
+    top: 60%;
+  }
+  .card1 h1 {
+    left: 20%;
+  }
+  .card1 h2 {
+    left: 20%;
+  }
+  .card1 .quotes {
+    left: 58%;
+    top: 5%;
+  }
+}

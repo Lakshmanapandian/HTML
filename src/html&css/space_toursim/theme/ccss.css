@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Libre+Baskerville&family=Montserrat&family=Poppins&family=Rubik&family=Space+Mono&family=Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Kumbh Sans", sans-serif; */
+}
+body {
+  background-image: url("../image/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+.cont {
+  -moz-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  width: 50vw;
+}
+ul li {
+  background-color: transparent;
+  display: inline-flex;
+  height: 9.5vh;
+
+  /*  */
+}
+ul li a {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  height: 5vh;
+  opacity: 1;
+  padding: 15px;
+  text-decoration: none;
+  width: 10vw;
+}
+ul li a:hover {
+  border-bottom: 1px solid white;
+  border-width: 1px;
+  color: white;
+  font-size: large;
+  transition: 0.5s ease;
+  z-index: 0;
+}
+.line hr {
+  border: 1px solid hsl(240, 1%, 19%);
+  left: 10%;
+  opacity: 0.8;
+  position: absolute;
+  top: 8%;
+  width: 40vw;
+}
+h1 {
+  font-size: 20px;
+  left: 10%;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 17%;
+  word-spacing: 20px;
+  color: white;
+}
+h1::before {
+  color: rgb(66, 65, 65);
+  content: " 02   ";
+}
+.btt {
+  height: 10vh;
+  left: 20%;
+  position: absolute;
+  top: 80%;
+  width: 30vw;
+}
+button {
+  background-color: rgb(148, 147, 147);
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 2vh;
+  margin-left: 10px;
+  outline: none;
+  width: 1vw;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  transform: scale(1.5);
+  transition: 1s ease;
+}
+h4 {
+  font-size: 50px;
+  left: 20%;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 30%;
+  word-spacing: 20px;
+  color: white;
+}
+p {
+  color: rgb(168, 170, 170);
+  font-size: 25px;
+  height: 20vh;
+  left: 20%;
+  position: absolute;
+  top: 45%;
+  width: 30vw;
+}
+.logo img {
+  left: 4%;
+  position: absolute;
+  top: 5%;
+}
+.svg img {
+  border-radius: 20px;
+  height: 70vh;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  width: 35vw;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 1295px) {
+  .line hr {
+    width: 30 vw;
+  }
+  .cont {
+    width: 60vw;
+  }
+  p {
+    font-size: 23px;
+    top: 45%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .line hr {
+    width: 30vw;
+  }
+  .cont {
+    width: 60vw;
+  }
+  p {
+    font-size: 21px;
+    top: 45%;
+  }
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Libre+Baskerville&family=Montserrat&family=Poppins&family=Rubik&family=Space+Mono&family=Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Kumbh Sans", sans-serif; */
+}
+body {
+  background-image: url("../image/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+.cont {
+  -moz-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  width: 50vw;
+}
+ul li {
+  background-color: transparent;
+  display: inline-flex;
+  height: 9.5vh;
+
+  /*  */
+}
+ul li a {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  height: 5vh;
+  opacity: 1;
+  padding: 15px;
+  text-decoration: none;
+  width: 10vw;
+}
+ul li a:hover {
+  border-bottom: 1px solid white;
+  border-width: 1px;
+  color: white;
+  font-size: large;
+  transition: 0.5s ease;
+  z-index: 0;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+  left: 10%;
+  position: absolute;
+  top: 50%;
+}
+p {
+  color: rgb(145, 144, 144);
+  font-size: 20px;
+  left: 10%;
+  position: absolute;
+  top: 45%;
+}
+span {
+  color: rgb(112, 109, 114);
+  font-size: 20px;
+  left: 10%;
+  position: absolute;
+  top: 65%;
+  width: 20vw;
+}
+button {
+  border-color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  height: 30vh;
+  left: 68%;
+  outline: none;
+  position: absolute;
+  position: relative;
+  top: 50%;
+  transform: scale(1);
+  width: 15vw;
+}
+button:hover {
+  border-color: white;
+  box-shadow: -1px 1px 20px 0px white;
+  transform: scale(1.1);
+  transition: 2s ease;
+}
+img {
+  left: 4%;
+  position: absolute;
+  top: 5%;
+}
+.line hr {
+  border: 1px solid hsl(240, 1%, 19%);
+  left: 10%;
+  opacity: 0.8;
+  position: absolute;
+  top: 8%;
+  width: 34rem;
+}
+@media only screen and (max-width: 1310px) {
+  .cont {
+    width: 60vw;
+  }
+  .line hr {
+    width: 24rem;
+  }
+}
+@media only screen and (max-width: 1175px) {
+  .cont {
+    width: 60vw;
+  }
+  .line hr {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  .line hr {
+    width: 30vw;
+    /* width: 20%; */
+  }
+  button {
+    font-size: 28px;
+    width: 20vw;
+    height: 35vh;
+    top: 43%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+  span {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  ul {
+    display: none;
+  }
+  .line hr {
+    display: none;
+  }
+  p {
+    font-size: 20px;
+    left: 10%;
+    top: 20%;
+  }
+}

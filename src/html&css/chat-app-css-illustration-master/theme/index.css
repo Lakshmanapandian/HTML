@@ -1,0 +1,245 @@
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(270, 20%, 96%);
+  position: relative;
+}
+.chat-screen-primary {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 60px 60px 50px 50px;
+  border: 1px solid rgb(10, 10, 10);
+  box-shadow: 10 10 10;
+  height: 83vh;
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  width: 20vw;
+}
+.chat-screen-secondry {
+  background-color: hsl(270, 7%, 84%);
+  border-radius: 60px 60px 50px 50px;
+  border: 1px solid white;
+  height: 78vh;
+  left: 5%;
+  position: absolute;
+  top: 4%;
+  width: 18vw;
+}
+h1 {
+  background-clip: text;
+  background: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 40%;
+  position: absolute;
+  top: 40%;
+}
+h2 {
+  color: white;
+  font-size: 16px;
+  left: 30%;
+  position: absolute;
+  top: 5%;
+}
+h3 {
+  color: hsl(270, 20%, 96%);
+  font-size: 11px;
+  left: 30%;
+  position: absolute;
+  top: 10%;
+}
+span {
+  left: 40%;
+  position: absolute;
+  top: 50%;
+  width: 30vw;
+}
+.color-line {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 0 0 50rem 0px;
+  height: 90vh;
+  width: 15rem;
+}
+.header {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 30px 30px 0 0;
+  height: 80px;
+}
+.header img {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 40px;
+  left: 10%;
+  position: absolute;
+  top: 5%;
+  width: 40px;
+}
+.notch {
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  height: 30px;
+  left: 20%;
+  position: absolute;
+  top: -3%;
+  width: 10rem;
+}
+p {
+  border: 1px solid white;
+  font-size: 14px;
+  width: 100px;
+}
+#right1 {
+  align-content: center;
+  border-radius: 10px 10px 0px 10px;
+  color: hsl(271, 15%, 43%);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  height: 40px;
+  padding-left: 10px;
+  position: absolute;
+  right: 0%;
+  top: 41%;
+  width: 150px;
+}
+#right2 {
+  background-color: white;
+  border-radius: 10px 10px 0px 10px;
+  color: hsl(271, 15%, 43%);
+  font-size: 16px;
+  height: 50px;
+  padding-left: 10px;
+  position: absolute;
+  right: 4%;
+  top: 49%;
+  width: 150px;
+}
+#right1 img {
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+}
+#left1 {
+  background-color: white;
+  border-radius: 10px 10px 10px 0px;
+  color: hsl(276, 55%, 52%);
+  font-size: 16px;
+  height: 50px;
+  left: 4%;
+  padding-left: 10px;
+  position: absolute;
+  text-align: center;
+  top: 17%;
+  width: 160px;
+}
+#left2 {
+  background-color: white;
+  border-radius: 10px 10px 10px 0px;
+  color: hsl(276, 55%, 52%);
+  font-size: 16px;
+  height: 57px;
+  left: 4%;
+  padding-left: 10px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 160px;
+}
+#left3 {
+  background-color: white;
+  border-radius: 10px 10px 10px 0px;
+  color: hsl(276, 55%, 52%);
+  font-size: 16px;
+  height: 95px;
+  left: 4%;
+  padding-left: 10px;
+  position: absolute;
+  text-align: center;
+  top: 62%;
+  width: 160px;
+}
+#left4 {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 10px 10px 10px 0px;
+  color: hsl(285, 33%, 98%);
+  font-size: 16px;
+  height: 30px;
+  left: 4%;
+  padding-left: 10px;
+  position: absolute;
+  text-align: center;
+  top: 82%;
+  width: 160px;
+}
+input {
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  left: 9%;
+  position: absolute;
+  top: 92%;
+  width: 15vw;
+}
+button {
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 50%;
+  border: none;
+  color: white;
+  height: 20px;
+  left: 81%;
+  position: absolute;
+  top: 93%;
+  width: 20px;
+}
+@media only screen and (max-width: 360px) {
+  body {
+    height: 120vh;
+  }
+  .chat-screen-secondry {
+    width: 60vw;
+  }
+  .chat-screen-primary {
+    left: 23%;
+    top: 3%;
+    width: 69vw;
+  }
+  input {
+    width: 52vw;
+  }
+  span {
+    left: 21%;
+    top: 96%;
+    width: 66vw;
+  }
+  h1 {
+    left: 18%;
+    top: 87%;
+  }
+  .colorr {
+    width: 7rem;
+  }
+  .attribution {
+    left: 5%;
+    position: absolute;
+    top: 120%;
+  }
+}
