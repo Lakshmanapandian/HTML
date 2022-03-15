@@ -14,8 +14,8 @@ tr:nth-child(2n + 1) {
   color: white;
 }
 a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 a:hover {
   color: blue;
@@ -24,42 +24,37 @@ a:hover {
 a:active {
   color: red;
 }
-
-/* First paragraph */
-/* p:nth-of-type(1) {
-font-weight: bold;
-} */
 th,
 td,
 tr {
   width: 10vw;
 }
 td {
+  height: 5vh;
   text-align: center;
   width: 15vw;
-  height: 5vh;
 }
 #t1 {
   border-collapse: collapse;
-  position: absolute;
   left: 13%;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, 0%);
   width: 15vw;
 }
 #t2 {
   border-collapse: collapse;
-  position: absolute;
+  height: 100vh;
   left: 43%;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, 0%);
   width: 15vw;
-  height: 100vh;
 }
 #t3 {
   border-collapse: collapse;
-  position: absolute;
   left: 73%;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, 0%);
   width: 15vw;
@@ -80,15 +75,14 @@ caption {
     height: 350vh;
   }
   #t1 {
-    transform: translate(-50%, -163%);
     left: 49%;
+    transform: translate(-50%, -163%);
     width: 17vw;
   }
   #t2 {
-    transform: translate(-50%, -56%);
     left: 49%;
+    transform: translate(-50%, -56%);
   }
-
   div {
     width: 37vw;
   }
