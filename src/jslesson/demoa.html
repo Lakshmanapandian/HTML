@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demoa</title>
+    <script src="deoma.js" defer></script>
+</head>
+
+<body>
+    <p>
+        <label for="firstvalue">x:</label>
+        <input id="firstvalue" type="number" placeholder="enter a number" />
+    </p>
+    <p>
+        <label for="secondvalue">x:</label>
+        <input id="secondvalue" type="number" placeholder="enter a number" />
+    </p>
+    <p>
+        <button type="button" value="ok" onclick="addition()">ok</button>
+
+        <button type="button" value="ok" onclick="sum()">sum</button>
+        <button type="button" value="ok" onclick="add(parseInt(500),parseInt(30))">add again</button>
+        <button type="button" value="ok"
+            onclick="add(parseInt(document.getElementById('firstvalue').value),parseInt(document.getElementById('secondvalue').value))">add</button>
+    <p>
+        <button type="button" value="ok" onclick="problem1()">problem1</button>
+        <button type="button" value="ok" onclick="problem2()">problem2</button>
+        <button type="button" value="ok" onclick="problem3()">problem3</button>
+        <button type="button" value="ok"
+            onclick="reverse(parseInt(document.getElementById('firstvalue').value))">reverse</button>
+
+
+
+    </p>
+    <p id="result"></p>
+</body>
+
+</html>

@@ -1,20 +1,25 @@
-function myfunction() {
-  var h1 = document.getElementById("ond");
-  var h2 = document.getElementById("ond1");
-  var h3 = document.getElementById("ond2");
-  var ball = document.getElementsByClassName("ball")[0];
-  ball.classList.add("ballclick");
-  h1.innerHTML = "&dollar;19.99 ";
-  h2.innerHTML = "&dollar;29.99 ";
-  h3.innerHTML = "&dollar;39.99 ";
-}
-function myfunc() {
-  var h1 = document.getElementById("ond");
-  var h2 = document.getElementById("ond1");
-  var h3 = document.getElementById("ond2");
-  var ball = document.getElementsByClassName("ball")[0];
-  ball.classList.remove("ballclick");
-  h1.innerHTML = "&dollar;199.99 ";
-  h2.innerHTML = "&dollar;299.99 ";
-  h3.innerHTML = "&dollar;399.99 ";
+/*eslint-disable*/
+
+const button = document.getElementById("selector-bar");
+button.addEventListener("click", myFunction);
+
+function myFunction() {
+  var monthPayment = document.getElementsByTagName("h3");
+  var annualPayment = document.getElementsByTagName("h4");
+  var i;
+  var n;
+
+  for (i = 0; i < monthPayment.length; i++) {
+    for (n = 0; n < annualPayment.length; n++) {
+      if (monthPayment[i].style.display === "none") {
+        monthPayment[i].style.display = "block";
+        annualPayment[i].style.display = "none";
+        button.style.justifyContent = "flex-end";
+      } else {
+        monthPayment[i].style.display = "none";
+        annualPayment[i].style.display = "block";
+        button.style.justifyContent = "flex-start";
+      }
+    }
+  }
 }

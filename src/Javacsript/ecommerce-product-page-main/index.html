@@ -4,60 +4,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
   <title>Frontend Mentor | E-commerce product page</title>
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-  <img src="./images/icon-menu.svg" alt="" id="menu" onclick="nav()" />
-  <img src="./images/logo.svg " alt="" id="logo" />
-  <ul #id="mobile">
-    <li>Collections</li>
-    <li>Men</li>
-    <li>Women</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-  <img src="./images/icon-cart.svg" alt="" id="cart" onclick="displaycart()" />
-  <div class="notify">
-    <div class="nans">0</div>
+  <div class="navigation">
+    <img src="./images/icon-menu.svg" alt="" id="menu" onclick="nav()" />
+    <img src="./images/logo.svg " alt="" id="logo" />
+    <ul id="desktop_nav">
+      <img src="./images/icon-close.svg" alt="" id="nav-close" onclick="navclose()">
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <img src=" ./images/icon-cart.svg" alt="" id="cart" onclick="displaycart()" />
+    <div class="notify">
+      <div class="notify_count">0</div>
+    </div>
+    <img src="./images/image-avatar.png" alt="" id="avatar" />
   </div>
-  <img src="./images/image-avatar.png" alt="" id="avatar" />
   <hr id="hr1" />
   <img src="./images/image-product-1.jpg" alt="" id="imgp1" />
-  <div class="imf">
+  <div class="image_thumbnails">
     <img src="./images/image-product-1-thumbnail.jpg" alt="" onclick="display()" />
     <img src="./images/image-product-2-thumbnail.jpg" alt="" onclick="display()" />
     <img src="./images/image-product-3-thumbnail.jpg" alt="" onclick="display()" />
     <img src="./images/image-product-4-thumbnail.jpg" alt="" onclick="display()" />
   </div>
   <h2>SNEAKERS COMPANY</h2>
-
   <h1>Fall Limited Edition Sneakers</h1>
-
   <p>
     These low-profile sneakers are your perfect casual wear companion.
     Featuring a durable rubber outer sole, they’ll withstand everything the
     weather can offer.
   </p>
-
   <h3>$125.00</h3>
   <button id="b1">50%</button>
   <h3 id="del">$250.00</h3>
-  <div class="incre">
+  <div class="change_quantity">
     <div class="minus" onclick="decrease()">
       <img src="./images/icon-minus.svg" alt="" />
     </div>
@@ -66,22 +54,20 @@
       <img src="./images/icon-plus.svg" alt="" />
     </div>
   </div>
-
   <button id="b2" onclick="notifyd()">
     <img src="./images/icon-cart.svg" alt="" /> Add to cart
   </button>
-  <div class="imgse"></div>
-
-  <div id="imgsec">
+  <div class="preview_greyscalebg"></div>
+  <div id="preview_content">
     <img src="./images/icon-close.svg" alt="" id="close" onclick="funclose()" />
     <button id="pre" onclick="previous()">
       <img src="./images/icon-previous.svg" alt="" />
     </button>
-    <img src="./images/image-product-1.jpg" style alt="" id="imggm" />
+    <img src="./images/image-product-1.jpg" style alt="" id="preview_image_slider" />
     <button id="aft" onclick="next()">
       <img src="./images/icon-next.svg" alt="" />
     </button>
-    <div class="imf1">
+    <div class="preview_image_thumbnails">
       <img src="./images/image-product-1-thumbnail.jpg" alt="" onclick="displayimg1()" />
       <img src="./images/image-product-2-thumbnail.jpg" alt="" onclick="displayimg2()" />
       <img src="./images/image-product-3-thumbnail.jpg" alt="" onclick="displayimg3()" />
@@ -104,14 +90,6 @@
       <button id="checkout">Check out</button>
     </div>
   </div>
-  <ul id="nav" style="display: none">
-    <img src="./images/icon-close.svg" alt="" id="nav-close" onclick="navclose() " />
-    <li>Collections</li>
-    <li>Men</li>
-    <li>Women</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
 </body>
 <script src="index.js"></script>
 
