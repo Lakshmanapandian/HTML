@@ -185,6 +185,7 @@ h3 {
   /* display: none; */
   margin-top: 50px;
   margin-left: 41px;
+  opacity: revert;
 }
 #preview_content button {
   width: 4vw;

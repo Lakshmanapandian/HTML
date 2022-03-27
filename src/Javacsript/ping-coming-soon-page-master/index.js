@@ -5,7 +5,6 @@ let h3 = document.getElementById("msg");
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  console.log(h3);
   if (inputEmail.value.match(regEx)) {
     form.classList.remove("error");
     form.classList.add("success");

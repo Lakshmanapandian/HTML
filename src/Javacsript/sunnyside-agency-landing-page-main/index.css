@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   font-family: "Barlow", sans-serif;
@@ -20,10 +20,10 @@ p {
 }
 header {
   background: url(./images/desktop/image-header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 .nav-bar {
   display: flex;
@@ -37,33 +37,33 @@ nav ul li:not(:last-child) {
   margin-right: 40px;
 }
 nav ul li a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 nav ul li a.btn {
-  text-transform: uppercase;
-  font-family: "Fraunces", serif;
-  color: black;
   background-color: white;
-  padding: 14px 25px;
   border-radius: 35px;
+  color: black;
+  font-family: "Fraunces", serif;
   font-size: 14px;
+  padding: 14px 25px;
+  text-transform: uppercase;
   transition: all 0.2s ease;
 }
 nav ul li a.btn:hover {
-  color: #fff;
   background-color: #6eceff;
+  color: #fff;
 }
 .hero {
-  text-align: center;
   padding-top: 15vh;
+  text-align: center;
 }
 .hero h1 {
-  font-size: 56px;
-  text-transform: uppercase;
   color: #fff;
+  font-size: 56px;
   letter-spacing: 6px;
   padding-bottom: 10vh;
+  text-transform: uppercase;
 }
 .row {
   display: grid;
@@ -73,8 +73,8 @@ nav ul li a.btn:hover {
   padding: 12vw;
 }
 .box h2 {
-  font-size: 46px;
   color: #23303b;
+  font-size: 46px;
   margin-bottom: 30px;
 }
 .box p {
@@ -82,79 +82,79 @@ nav ul li a.btn:hover {
   margin-bottom: 25px;
 }
 .btn-underline {
-  font-family: "Fraunces", serif;
   color: #23303b;
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  font-size: 16px;
-  position: relative;
 }
 .btn-underline::after {
-  content: "";
-  position: absolute;
   background-color: #ff7769;
-  height: 10px;
-  width: 110%;
-  left: -5%;
   bottom: 0;
-  z-index: -1;
+  content: "";
+  height: 10px;
+  left: -5%;
+  position: absolute;
   transition: height 0.4s;
+  width: 110%;
+  z-index: -1;
 }
 .btn-underline:hover::after {
   height: 100%;
 }
 .col img {
-  width: 100%;
-  height: 100%;
   display: block;
+  height: 100%;
+  width: 100%;
 }
 .card {
   position: relative;
 }
 .card .box-content {
-  position: absolute;
-  top: 70%;
-  text-align: center;
-  max-width: 400px;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #1f5449;
+  left: 50%;
+  max-width: 400px;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
 .box-content h3 {
   font-size: 34px;
   margin-bottom: 30px;
 }
 .testimonial {
-  text-align: center;
   padding: 14vh 7vw;
+  text-align: center;
 }
 .testimonial h2 {
   color: #a4a7a9;
-  text-transform: uppercase;
-  letter-spacing: 5px;
   font-size: 22px;
+  letter-spacing: 5px;
   margin-bottom: 8vh;
+  text-transform: uppercase;
 }
 .testimonial-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 70px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .single-testimonial img {
-  height: 80px;
-  width: 80px;
   border-radius: 50%;
+  height: 80px;
   margin-bottom: 50px;
+  width: 80px;
 }
 .single-testimonial p {
   color: #595a5d;
 }
 h5.author {
   color: #283843;
-  margin-top: 70px;
   font-size: 22px;
+  margin-top: 70px;
 }
 p.designation {
   color: #b4b3b1;
@@ -170,12 +170,12 @@ p.designation {
 }
 footer {
   background: #90d4c5;
-  text-align: center;
   padding: 5rem 0;
+  text-align: center;
 }
 .footer-menu {
-  margin-top: 30px;
   margin-bottom: 70px;
+  margin-top: 30px;
 }
 .footer-menu ul li a {
   color: #2b7463;
@@ -185,8 +185,8 @@ footer {
   color: #fff;
 }
 .hamburger {
-  display: none;
   cursor: pointer;
+  display: none;
 }
 .toggle {
   height: auto !important;
@@ -206,6 +206,10 @@ footer {
   }
 }
 @media only screen and (max-width: 768px) {
+  li:not(:last-child) {
+    margin-right: 0;
+  }
+
   .hamburger {
     display: inline-block;
   }
@@ -213,23 +217,20 @@ footer {
     position: relative;
   }
   .nav {
-    position: absolute;
-    width: 100%;
     background-color: #00aaff;
-    left: 0;
-    top: 100px;
     height: 0;
+    left: 0;
     overflow: hidden;
+    position: absolute;
     text-align: center;
+    top: 100px;
+    width: 100%;
   }
   .nav ul li {
     display: block;
     padding: 20px 0;
   }
-  .nav ul li:not(:last-child) {
-    margin-right: 0;
-  }
-  .row {
+  .nav ul .row {
     grid-template-columns: 1fr;
   }
   .col-2 {
