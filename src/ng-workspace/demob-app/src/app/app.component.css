@@ -7,16 +7,16 @@
 
 h1{
   margin-top: 1rem;
-  margin-left: 6rem;
+  margin-left: -12px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 36.7vw;}
 
-}
-
-hr {
-  width: 480px;
-}
+ 
 
 #btn {
-  background-color: rgb(41, 41, 250);
+ background-color: rgb(0 0 0);;
   color: white;
   margin-left: 12rem;
 }
@@ -27,7 +27,7 @@ hr {
   justify-content: center;
 }
 .container {
-  background-color:rgb(216, 83, 83);
+  background-color: white;
   width: 500px;
   justify-content: center;
 }
@@ -59,7 +59,7 @@ button {
 }
 
 #submit {
-  background-color:rgb(41, 41, 250);
+  background-color:black;
   padding: 10px 10px;
   border: none;
   margin-left:6px ;
@@ -69,12 +69,12 @@ button {
 }
 
 #submit:hover {
-  background-color: greenyellow;
+
   transform: translateY(5px);
 }
 #btn:hover{
-  background-color: greenyellow;
   transform: translateY(5px);
+ 
 }
 
 .check {
@@ -83,23 +83,38 @@ button {
 
 #table {
   width: 1200px;
-  border: 1px solid white;
   border-collapse: collapse;
   text-align: center;
   margin-top: 3rem;
   color: white;
 }
 
-table tr th,
-table tr td {
-  border: 1px solid white;
+table  th
+ {
   padding: 12px 7px;
+  background-color: black;
+  color: white;
+
+}
+table tr{
+  padding :10px
+}
+table  tr:nth-child(even){
+  background-color: white;
+  color: black;
+  
+
+}
+table  tr:nth-child(odd){
+  background-color: rgb(197, 197, 191);
+ color: black;
+
 
 }
 
+
 #table1{
   width: 1200px;
-  border: 1px solid white;
   border-collapse: collapse;
   text-align: center;
   margin-top: 3rem;
