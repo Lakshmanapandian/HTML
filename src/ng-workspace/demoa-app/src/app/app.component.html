@@ -1,0 +1,8 @@
+<h1 class="bg-primary">angular js {{title}} from {{location}}</h1>
+<hr>
+<div>
+    <app-boxa [data]='location' labelValue="Location" (onBoxDataChange)="onBoxValueChange($event)"></app-boxa>
+</div>
+<div>
+    <app-customer-form></app-customer-form>
+</div>
