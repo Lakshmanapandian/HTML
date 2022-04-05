@@ -6,3 +6,13 @@
 <div>
     <app-customer-form></app-customer-form>
 </div>
+<div class="input">
+    <input type="text" id="text">
+    <button (click)="print()">submit</button>
+    <button (click)="reset()">cancel</button>
+
+</div>
+<div>
+    <input type="text" ngModel="name">
+    <p>{{name}}</p>
+</div>

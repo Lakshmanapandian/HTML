@@ -1,0 +1,81 @@
+<div>{{title}}</div>
+<div class="navigation">
+  <img src=".././assets/images/icon-menu.svg" alt="" id="menu" />
+  <img src="../assets/images/logo.svg" alt="" id="logo" />
+  <ul id="desktop_nav">
+    <img src="../assets/images/icon-close.svg" alt="" id="nav-close">
+    <li>Collections</li>
+    <li>Men</li>
+    <li>Women</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+  <img src=" ../assets/images/icon-cart.svg" alt="" id="cart" />
+  <div class="notify">
+    <div class="notify_count"></div>
+  </div>
+  <img src="../assets/images/image-avatar.png" alt="" id="avatar" />
+</div>
+<hr id="hr1" />
+<img src="../assets/images/image-product-1.jpg" alt="" id="imgp1" />
+<div class="image_thumbnails">
+  <img src="../assets/images/image-product-1-thumbnail.jpg" aslt="" />
+  <img src="../assets/images/image-product-2-thumbnail.jpg" alt="" />
+  <img src="../assets/images/image-product-3-thumbnail.jpg" alt="" />
+  <img src="../assets/images/image-product-4-thumbnail.jpg" alt="" />
+</div>
+<h2>SNEAKERS COMPANY</h2>
+<h1>Fall Limited Edition Sneakers</h1>
+<p>
+  These low-profile sneakers are your perfect casual wear companion.
+  Featuring a durable rubber outer sole, they’ll withstand everything the
+  weather can offer.
+</p>
+<h3>$125.00</h3>
+<button id="b1">50%</button>
+<h3 id="del">$250.00</h3>
+<div class="change_quantity">
+  <div class="minus" (click)="decrease()">
+    <img src="../assets/images/icon-minus.svg" alt="" />
+  </div>
+  <div id="ans">{{number}}</div>
+  <div class="plus">
+    <img src="../assets/images/icon-plus.svg" alt="" />
+  </div>
+</div>
+<button id="b2">
+  <img src="../assets/images/icon-cart.svg" alt="" /> Add to cart
+</button>
+<div class="preview_greyscalebg"> </div>
+<div id="preview_content">
+  <img src="../assets/images/icon-close.svg" alt="" id="close" />
+  <button id="pre"="previous()">
+    <img src="../assets/images/icon-previous.svg" alt="" />
+  </button>
+  <img src="../assets/images/image-product-1.jpg" style alt="" id="preview_image_slider" />
+  <button id="aft">
+    <img src="../assets/images/icon-next.svg" alt="" />
+  </button>
+  <div class="preview_image_thumbnails">
+    <img src="../assets/images/image-product-1-thumbnail.jpg" alt="" />
+    <img src="../assets/images/image-product-2-thumbnail.jpg" alt="" />
+    <img src="../assets/images/image-product-3-thumbnail.jpg" alt="" />
+    <img src="../assets/images/image-product-4-thumbnail.jpg" alt="" />
+  </div>
+</div>
+<div class="cart-card">
+  <h4>Cart</h4>
+  <hr />
+  <span id="card-empty"> Your card is empty</span>
+  <div id="cart-items">
+    <img src="../assets/images/image-product-1-thumbnail.jpg" alt="" id="cart-thumbnail" />
+    <small id="card-text">Fall Limited Edition Sneakers</small>
+    <div class="rates">
+      <div class="shoerate">$125.00</div>
+      <div class="quantity" id="quantity"></div>
+      <div class="evaluate" id="evalute">$125.00</div>
+    </div>
+    <img src="../assets/images/icon-delete.svg" alt="" id="delete" />
+    <button id="checkout">Check out</button>
+  </div>
+  <!-- </div> -->
